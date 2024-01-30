@@ -1,8 +1,12 @@
-import PropTypes from "prop-types";
 import Rating from "./Rating";
 
 const DriverCard = (props) => {
-  const { name, rating, img, car: { model, licensePlate } } = props;
+  const {
+    name,
+    rating,
+    img,
+    car: { model, licensePlate },
+  } = props;
 
   return (
     <div className="driver-card">
@@ -16,16 +20,6 @@ const DriverCard = (props) => {
       </div>
     </div>
   );
-};
-
-DriverCard.propTypes = {
-  name: PropTypes.string.isRequired,
-  rating: PropTypes.number.isRequired,
-  img: PropTypes.string.isRequired,
-  car: PropTypes.shape({
-    model: PropTypes.string.isRequired,
-    licensePlate: PropTypes.string.isRequired,
-  }).isRequired,
 };
 
 export default DriverCard;

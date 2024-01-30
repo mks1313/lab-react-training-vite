@@ -1,0 +1,21 @@
+.carousel {
+  display: flex;
+  align-items: center;
+}
+
+.carousel-button {
+  background-color: lightskyblue;
+  color: #0f0f0f;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.carousel-content {
+  margin: 0 10px;
+}
+
+.carousel-content img {
+  width: 200px;
+  height: auto;
+}

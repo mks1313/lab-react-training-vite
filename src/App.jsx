@@ -6,9 +6,18 @@ import BoxColor from "./components/BoxColor";
 import CreditCard from "./components/CreditCard";
 import Rating from "./components/Rating";
 import DriverCard from "./components/DriverCard";
+import LikeButton from "./components/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
+import Carousel from "./components/Carousel";
+import NumbersTable from "./components/NumbersTable";
+import Facebook from "./components/Facebook";
+import SignupPage from "./components/SignupPage";
+import RGBColorPicker from "./components/RGBColorPicker";
+import SingleColorPicker from "./components/SingleColorPicker";
+
 
 function App() {
-  
   return (
     <div className="global">
       <IdCard
@@ -105,6 +114,51 @@ function App() {
           }}
         />
       </div>
+      <hr />
+      <div className="like-buttons-container">
+        <LikeButton />
+        <LikeButton />
+      </div>
+      <hr />
+      <div className="picture">
+        <ClickablePicture
+          img="https://media.glamour.es/photos/616fc22061a372755b809aa6/master/w_2580%2Cc_limit/370116.jpg"
+          imgClicked="/src/assets/images/glasses.png"
+        />
+      </div>
+      <hr />
+      <div className="dice">
+        <Dice />
+      </div>
+      <hr />
+      <div>
+        <Carousel
+          images={[
+            "https://randomuser.me/api/portraits/women/1.jpg",
+            "https://randomuser.me/api/portraits/men/1.jpg",
+            "https://randomuser.me/api/portraits/women/2.jpg",
+            "https://randomuser.me/api/portraits/men/2.jpg",
+          ]}
+        />
+      </div>
+      <hr />
+      <div>
+        <NumbersTable limit={12} />
+      </div>
+      <hr />
+      <div>
+        <Facebook />
+      </div>
+      <hr />
+      <hr />
+      <div>
+          <SignupPage />
+      </div>
+      <hr />
+      <div>
+      <RGBColorPicker />
+      </div>
+      <hr />
     </div>
   );
 }

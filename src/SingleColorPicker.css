@@ -1,0 +1,12 @@
+.single-color-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.single-color {
+  width: 60px;
+  height: 60px;
+  margin-left: 10px;
+  display: inline-block;
+}

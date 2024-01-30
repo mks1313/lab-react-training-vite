@@ -1,0 +1,36 @@
+.divStyles {
+  display: flex;
+  border: 2px solid black;
+  width: 40%;
+  padding: 30px;
+  margin: 15px;
+}
+
+.navStyle {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  list-style-type: none;
+  gap: 2px;
+}
+
+.profilesContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 23px;
+  margin-bottom: 10px;
+}
+
+b {
+  font-weight: bold;
+}

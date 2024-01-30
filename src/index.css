@@ -1,17 +1,4 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-.card {
+.cards {
   display: flex;
   border: 2px solid black;
   padding: 10px 10px;
@@ -53,7 +40,7 @@ code {
   text-align: center;
 }
 
-.credit-card {
+.credit-card1 {
   width: 300px;
   padding: 20px;
   border-radius: 15px;
@@ -64,17 +51,17 @@ code {
   font-family: Arial, sans-serif;
 }
 
-.card-type {
+.card-type1 {
   font-size: 24px;
   margin-bottom: 10px;
 }
 
-.card-number {
+.card-number1 {
   font-size: 18px;
   margin-bottom: 20px;
 }
 
-.card-info {
+.card-info1 {
   display: flex;
   justify-content: space-between;
   font-size: 14px;
@@ -117,7 +104,6 @@ code {
   margin-right: 15px;
 }
 
-
 .driver-info h2 {
   margin-bottom: 5px;
   font-size: 18px;
@@ -128,3 +114,45 @@ code {
   font-size: 14px;
 }
 
+.like-buttons-container {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.like-button {
+  display: flex;
+  width: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.like-button:hover {
+  filter: brightness(1.2);
+}
+.picture {
+  width: 600px;
+}
+
+.dice {
+  cursor: pointer;
+  width: 100px;
+}
+
+.dice img {
+  width: 100%;
+  margin: 30px;
+}
+
+hr {
+  border: 2px solid #000;
+  margin: 20px 0;
+}

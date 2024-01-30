@@ -1,0 +1,20 @@
+.numbers-table {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1px;
+}
+
+.even,
+.odd {
+  border: 2px solid black;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.even {
+  background-color: red;
+  color: white;
+}

@@ -1,0 +1,19 @@
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.rgbcolors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.rgbsecolor-second {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+}
